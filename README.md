@@ -58,7 +58,7 @@ Inicio → Curso → Lección (Video o Artículo)
 - id (PK)
 - titulo
 - resumen
-- slug (UNIQUE)
+- slug
 - creado_en
 - actualizado_en
 
@@ -90,13 +90,13 @@ Inicio → Curso → Lección (Video o Artículo)
 - nombre
 - biografia
 - avatar_url
-- slug (UNIQUE)
+- slug
 
 ### `tematica`
 
 - id (PK)
-- nombre (UNIQUE)
-- slug (UNIQUE)
+- nombre
+- slug
 
 ### `curso_autor`
 
