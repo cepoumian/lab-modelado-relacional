@@ -100,13 +100,12 @@ Inicio → Curso → Lección (Video o Artículo)
 
 ### `curso_autor`
 
-- id (PK)
-- curso_id (FK → curso.id)
-- autor_id (FK → autor.id)
+- curso_id (PK, FK → curso.id)
+- autor_id (PK, FK → autor.id)
 - rol_en_curso
 - creado_en
 
-> Alternativamente, podría usarse una clave primaria compuesta (curso_id, autor_id).
+> Se usa una clave primaria compuesta (curso_id, autor_id).
 
 ---
 
@@ -188,6 +187,11 @@ Para facilitar la lectura visual, se aplicó una codificación por color según 
  ├── elearning-diagrama-fisico.drawio
  ├── elearning-diagrama-fisico.png
  ├──README.md
+
+/desafio/
+ ├── elearning-diagrama-fisico.drawio
+ ├── elearning-diagrama-fisico.png
+ └── README.md
 
 README.md
 ```
